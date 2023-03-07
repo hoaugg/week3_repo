@@ -41,6 +41,42 @@
     #rightitem_find {
         margin-top: 20px;
     }
+    
+    #menu_2nd {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #menu_product {
+        display: flex;
+        justify-content: space-around;
+        width: 800px;
+        margin-top: 20px;
+    }
+    
+    #menu2_item {
+        display: flex;
+        justify-content: space-around;
+        width: 800px
+    }
+    
+    #menu2_text {
+        font-size: 18px;
+        display: flex;
+        height: 50px;
+        width: 180px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #menu2_sp {
+        display: flex;
+        background-color: darkgreen;
+        height: 50px;
+        width: 180px;
+        align-items: center;
+        justify-content: center;
+    }
 </style>
 
 <body>
@@ -73,16 +109,22 @@
 
     <div id="North_panel">
         <img src="Image_north_panel.png" alt="">
-    </div>
+    </div id="menu_2nd">
     <div id="menu_product">
-        <div>
-            <div>All Products</div>
-            <div>Face</div>
-            <div>Body</div>
+        <div id="menu2_item">
+            <div id="menu2_text">
+                <div id="menu2_sp">All Product</div>
+            </div>
+            <div id="menu2_text">Face</div>
+            <div id="menu2_text">Body</div>
         </div>
-        <div></div>
+        <div id="menu2_find">
+            <input type="text">
+        </div>
     </div>
 
+
+    <div id="Products"></div>
 </body>
 
 </html>
