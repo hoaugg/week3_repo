@@ -30,3 +30,48 @@
 .rightitem {
     color: #686E77;
 }
+
+.rtb {
+    padding: 8px 10px;
+    border: 2px solid #ebeced;
+    border-radius: 10px;
+
+}
+
+.rtb input {
+    border: none #565656;
+    outline: none;
+}
+
+#img-backgroud {
+    position: relative;
+
+}
+
+.content-backgroud {
+    position: absolute;
+    top: 112px;
+    left: 134px;
+    font-size: 20px;
+}
+
+#leftmenu {
+    padding: 10px;
+    border-bottom:  1px solid #6a6a6aad;
+    margin-left: 200px;
+    margin-left: 350px;
+
+}
+
+#sortby {
+    width: 90px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    padding: 3px 12px;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #7e838e;
+    
+}
