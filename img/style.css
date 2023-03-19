@@ -1,0 +1,32 @@
+#menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-style: solid;
+}
+
+#left {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#right {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#center {
+    margin-top: 10px;
+}
+
+.leftitem {
+    color: #686E77;
+}
+
+.rightitem {
+    color: #686E77;
+}
